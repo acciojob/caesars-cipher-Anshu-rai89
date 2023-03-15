@@ -47,3 +47,5 @@ function rot13(encrytedString) {
 
 	return decreptedWords.join(" ");
 }
+
+module.exports = rot13;
